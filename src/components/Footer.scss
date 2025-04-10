@@ -1,0 +1,12 @@
+// src/components/Footer.scss
+
+.footer {
+    width: 100%;
+    padding: 0.6rem 1rem;
+    font-size: 0.85rem;
+    text-align: center;
+    background: var(--secondary);
+    color: var(--text);
+    opacity: 0.6;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+}

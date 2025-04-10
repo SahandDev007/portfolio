@@ -1,0 +1,15 @@
+// src/styles/_mixins.scss
+
+@mixin flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@mixin responsive-padding {
+    padding: 2rem;
+
+    @media (max-width: 768px) {
+        padding: 1.2rem;
+    }
+}

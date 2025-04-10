@@ -1,0 +1,21 @@
+// src/styles/themes.scss
+
+body[data-theme="dark"] {
+    --bg: #0e0e10;
+    --text: #f3f3f3;
+    --primary: #00ffae;
+    --secondary: #1f1f1f;
+    --accent: #ff0055;
+    --scroll-thumb: #444;
+    --scroll-track: #222;
+}
+
+body[data-theme="light"] {
+    --bg: #f7f7f7;
+    --text: #1c1c1c;
+    --primary: #007aff;
+    --secondary: #ffffff;
+    --accent: #ff3c3c;
+    --scroll-thumb: #ccc;
+    --scroll-track: #eee;
+}

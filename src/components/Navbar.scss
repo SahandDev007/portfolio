@@ -1,0 +1,91 @@
+.navbar {
+    width: 100%;
+    padding: 1.2rem 2rem;
+    background: var(--secondary);
+    color: var(--text);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+
+    .logo {
+        font-size: 1.4rem;
+        font-weight: bold;
+        color: var(--primary);
+        letter-spacing: 1px;
+    }
+
+    .menu-toggle {
+        display: none;
+        font-size: 1.6rem;
+        color: var(--text);
+        cursor: pointer;
+        z-index: 1001;
+    }
+
+    .nav-links {
+        list-style: none;
+        display: flex;
+        gap: 1.8rem;
+        margin-right: 2.5rem;
+
+        li {
+            a {
+                font-weight: 500;
+                color: var(--text);
+                transition: all 0.3s ease;
+
+                &.active {
+                    color: var(--primary);
+                }
+
+                &:hover {
+                    color: var(--accent);
+                }
+            }
+        }
+
+                &.mobile {
+                    backdrop-filter: blur(8px);
+                    position: absolute;
+                    top: 100%;
+                    left: 0;
+                    right: 0;
+                    width: 100%;
+                    background: var(--secondary);
+                    flex-direction: column;
+                    padding: 1rem 0;
+                    text-align: center;
+                    display: flex;
+                    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+                    z-index: 999;
+        
+                    li {
+                            margin: 0.6rem 0;
+                    
+                            a {
+                                color: var(--text);
+                                font-size: 1.1rem;
+                                transition: all 0.3s ease;
+                    
+                                &:hover {
+                                    color: var(--accent);
+                                    transform: scale(1.05);
+                                }
+                            }
+                        }
+                }
+    }
+
+    @media (max-width: 768px) {
+        .menu-toggle {
+            display: block;
+        }
+
+        .nav-links.desktop {
+            display: none;
+        }
+    }
+}
