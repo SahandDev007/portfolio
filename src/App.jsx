@@ -4,10 +4,11 @@ import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import ThemeToggle from "./components/ThemeToggle";
 import Cursor from "./components/Cursor";
+import ScrollToTop from "./components/ScrollToTop";
 import AppRoutes from "./router";
 
 import "./styles/themes.scss";
-import "./App.scss"; // we'll create this now
+import "./App.scss";
 
 const App = () => {
   const [darkMode, setDarkMode] = useState(true);
@@ -21,9 +22,12 @@ const App = () => {
       <Cursor />
       <Navbar />
       <ThemeToggle darkMode={darkMode} setDarkMode={setDarkMode} />
+
       <main className="content">
+        <ScrollToTop />
         <AppRoutes />
       </main>
+
       <Footer />
     </div>
   );

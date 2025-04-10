@@ -22,9 +22,9 @@ const Cursor = () => {
       }}
       transition={{
         type: "spring",
-        stiffness: 300,
-        damping: 22,
-        mass: 0.5,
+        stiffness: 200,
+        damping: 10,
+        mass: 0.1,
       }}
     />
   );

@@ -8,7 +8,7 @@ export const projects = [
     },
     {
         title: "Movie Hunt",
-        tech: ["React", "Material UI", "API"],
+        tech: ["React", "Material UI", "API Integations"],
         description: "Movie and TV show explorer with trailer support via TMDb.",
         github: "https://github.com/harshaltribhuwan/movie-hunt-react",
         demo: "https://movie-hunt-react.netlify.app/",
@@ -36,14 +36,14 @@ export const projects = [
     },
     {
         title: "Recipe Finder",
-        tech: ["React", "API"],
+        tech: ["React", 'Scss', "API Integration"],
         description: "Search recipes by ingredients or dish names via API.",
         github: "https://github.com/harshaltribhuwan/recipe-finder",
         demo: "https:/harshaltribhuwan.github.io/recipe-finder/",
     },
     {
         title: "Animated User Explorer",
-        tech: ["React", "Framer Motion", "API"],
+        tech: ["React", "Framer Motion", "API Integration"],
         description: "Filterable user cards with fluid animations.",
         github: "https://github.com/harshaltribhuwan/animated-user-explorer",
         demo: "https://harshaltribhuwan.github.io/animated-user-explorer/",
@@ -71,7 +71,7 @@ export const projects = [
     },
     {
         title: "React OTP Component",
-        tech: ["React", "Framer Motion"],
+        tech: ["React", "Framer Motion", "SASS"],
         description: "Custom OTP input field with clean UI and animation.",
         github: "https://github.com/harshaltribhuwan/recipe-finder",
         demo: "https:/harshaltribhuwan.github.io/react-otp-component/",
