@@ -7,7 +7,6 @@ const Cursor = () => {
   const [isHovered, setIsHovered] = useState(false);
 
   useEffect(() => {
-    // Track mouse position
     const move = (e) => {
       setPosition({ x: e.clientX, y: e.clientY });
     };
@@ -16,24 +15,14 @@ const Cursor = () => {
     return () => window.removeEventListener("mousemove", move);
   }, []);
 
-  // Handle hover state for links, buttons, etc.
-  const handleMouseEnter = () => {
-    setIsHovered(true);
-  };
-
-  const handleMouseLeave = () => {
-    setIsHovered(false);
-  };
-
-  // Hide cursor on mobile
   const isMobile = window.innerWidth <= 768;
 
   return !isMobile ? (
     <motion.div
       className={`custom-cursor ${isHovered ? "hovered" : ""}`}
       animate={{
-        x: position.x - 16, // center the cursor
-        y: position.y - 16, // center the cursor
+        x: position.x - 16,
+        y: position.y - 16,
       }}
       transition={{
         type: "spring",
@@ -41,9 +30,7 @@ const Cursor = () => {
         damping: 10,
         mass: 0.1,
       }}
-    >
-      {/* Optional: You can add any hover-related effects here */}
-    </motion.div>
+    ></motion.div>
   ) : null;
 };
 

@@ -99,6 +99,44 @@
     }
 }
 
+@media (max-width: 768px) {
+    .hero-name {
+        font-size: 2.5rem;
+    }
+
+    .typed-text {
+        font-size: 1.4rem;
+    }
+
+    .hero-buttons {
+        gap: 1rem;
+    }
+
+    .btn-glow,
+    .btn-outline {
+        padding: 0.6rem 1.2rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .hero-name {
+        font-size: 2rem;
+    }
+
+    .typed-text {
+        font-size: 1.2rem;
+    }
+
+    .hero-buttons {
+        gap: 0.8rem;
+    }
+
+    .btn-glow,
+    .btn-outline {
+        padding: 0.5rem 1rem;
+    }
+}
+
 @keyframes glitchTop {
     0% {
         clip-path: inset(0 0 90% 0);
