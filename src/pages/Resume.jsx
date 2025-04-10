@@ -19,7 +19,11 @@ const Resume = () => {
       </Fade>
 
       <Fade direction="up" delay={200} triggerOnce>
-        <a href="/resume.pdf" download className="resume-download">
+        <a
+          href="https://drive.google.com/uc?export=download&id=1EttEPc-1JBCH-MYdVl4YwifZzDOwkrk5"
+          download
+          className="resume-download"
+        >
           <FaDownload /> Download Resume
         </a>
       </Fade>

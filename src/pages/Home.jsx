@@ -79,7 +79,11 @@ const Home = () => {
           <Link to="/projects" className="btn-glow">
             View Projects
           </Link>
-          <a href="/resume.pdf" download className="btn-outline">
+          <a
+            href="https://drive.google.com/uc?export=download&id=1EttEPc-1JBCH-MYdVl4YwifZzDOwkrk5"
+            download
+            className="btn-outline"
+          >
             Download Resume
           </a>
         </motion.div>
