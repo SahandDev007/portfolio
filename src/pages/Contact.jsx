@@ -16,10 +16,20 @@ const Contact = () => {
       </Fade>
 
       <Fade direction="up" delay={200} triggerOnce>
+        <div className="quote-block">
+          <p>“Let’s build something awesome together.”</p>
+        </div>
+      </Fade>
+
+      <Fade direction="up" delay={300} triggerOnce>
+        <hr className="contact-divider" />
+      </Fade>
+
+      <Fade direction="up" delay={400} triggerOnce>
         <div className="contact-details">
           <div className="contact-item">
             <FaEnvelope />
-            <a href="mailto:harshaltribhuwan07@gmail.com">
+            <a href="mailto:harshaltribhuwan12345@gmail.com">
               harshaltribhuwan12345@gmail.com
             </a>
           </div>
@@ -36,7 +46,7 @@ const Contact = () => {
         </div>
       </Fade>
 
-      <Fade direction="up" delay={400} triggerOnce>
+      <Fade direction="up" delay={500} triggerOnce>
         <p className="closing-line">
           Whether you're a founder, a dev, or just curious — drop a message
           anytime!

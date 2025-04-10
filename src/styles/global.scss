@@ -30,7 +30,21 @@ button {
     border: none;
     outline: none;
     cursor: pointer;
-    background: transparent;
+    background: var(--primary);
+    color: var(--btn-text); // ✅ important!
+    padding: 0.75rem 1.5rem;
+    border-radius: 8px;
+    font-weight: bold;
+    font-size: 1rem;
+    box-shadow: 0 0 12px var(--primary);
+    transition: all 0.3s ease;
+
+    &:hover {
+        background: var(--accent);
+        color: var(--btn-hover-text); // ✅ important!
+        box-shadow: 0 0 20px var(--accent);
+        transform: translateY(-2px);
+    }
 }
 
 img {

@@ -4,17 +4,20 @@ import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import ThemeToggle from "./components/ThemeToggle";
 import Cursor from "./components/Cursor";
-import ScrollToTop from "./components/ScrollToTop";
 import AppRoutes from "./router";
 
 import "./styles/themes.scss";
 import "./App.scss";
 
 const App = () => {
-  const [darkMode, setDarkMode] = useState(true);
+  const [darkMode, setDarkMode] = useState(() => {
+    const stored = localStorage.getItem("theme");
+    return stored === "light" ? false : true;
+  });
 
   useEffect(() => {
     document.body.setAttribute("data-theme", darkMode ? "dark" : "light");
+    localStorage.setItem("theme", darkMode ? "dark" : "light");
   }, [darkMode]);
 
   return (
@@ -22,12 +25,9 @@ const App = () => {
       <Cursor />
       <Navbar />
       <ThemeToggle darkMode={darkMode} setDarkMode={setDarkMode} />
-
       <main className="content">
-        <ScrollToTop />
         <AppRoutes />
       </main>
-
       <Footer />
     </div>
   );

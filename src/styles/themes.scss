@@ -8,6 +8,8 @@ body[data-theme="dark"] {
     --accent: #00bcd4;
     --scroll-thumb: #444;
     --scroll-track: #222;
+    --btn-text: #000;
+    --btn-hover-text: #fff;
 }
 
 body[data-theme="light"] {
@@ -18,4 +20,6 @@ body[data-theme="light"] {
     --accent: #0078f2;
     --scroll-thumb: #ccc;
     --scroll-track: #eee;
+    --btn-text: #fff;
+    --btn-hover-text: #fff;
 }
