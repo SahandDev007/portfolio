@@ -39,7 +39,7 @@ export const projects = [
         tech: ["React", 'Scss', "API Integration"],
         description: "Search recipes by ingredients or dish names via API.",
         github: "https://github.com/harshaltribhuwan/recipe-finder",
-        demo: "https:/harshaltribhuwan.github.io/recipe-finder/",
+        demo: "https://harshaltribhuwan.github.io/recipe-finder/",
     },
     {
         title: "Animated User Explorer",

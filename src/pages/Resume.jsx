@@ -1,5 +1,6 @@
 import React from "react";
 import { Fade } from "react-awesome-reveal";
+import { Link } from "react-router-dom"; 
 import { FaDownload, FaArrowRight } from "react-icons/fa";
 import "./Resume.scss";
 
@@ -40,9 +41,10 @@ const Resume = () => {
       <Fade direction="up" delay={400} triggerOnce>
         <p className="cta">
           Wanna see what I’ve built? Head over to{" "}
-          <a href="/projects">
+          <Link to="/projects">
+            {" "}
             Projects <FaArrowRight />
-          </a>
+          </Link>
         </p>
       </Fade>
     </div>
