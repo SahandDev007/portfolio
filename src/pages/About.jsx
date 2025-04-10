@@ -139,7 +139,7 @@ const About = () => {
             functionalities of their originals but also incorporate unique
             features that improve performance and usability.
           </p>
-          <p>
+          <span>
             Beyond these, my portfolio includes a variety of projects ranging
             from animation-rich UI explorers to complex data visualization
             tools. Each endeavor underscores my passion for micro-interactions,
@@ -156,7 +156,7 @@ const About = () => {
               </a>
               .
             </p>
-          </p>
+          </span>
         </div>
       </Fade>
     </div>
