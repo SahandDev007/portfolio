@@ -5,9 +5,11 @@ import Footer from "./components/Footer";
 import ThemeToggle from "./components/ThemeToggle";
 import Cursor from "./components/Cursor";
 import AppRoutes from "./router";
+import { AnimatePresence, motion } from "framer-motion"; // Import AnimatePresence and motion
 
 import "./styles/themes.scss";
 import "./App.scss";
+import ScrollToTop from "./components/ScrollToTop";
 
 const App = () => {
   const [darkMode, setDarkMode] = useState(() => {
@@ -25,9 +27,15 @@ const App = () => {
       <Cursor />
       <Navbar />
       <ThemeToggle darkMode={darkMode} setDarkMode={setDarkMode} />
+      <ScrollToTop />
+
+      {/* AnimatePresence allows exit animations when components are removed */}
       <main className="content">
-        <AppRoutes />
+        <AnimatePresence exitBeforeEnter>
+          <AppRoutes />
+        </AnimatePresence>
       </main>
+
       <Footer />
     </div>
   );

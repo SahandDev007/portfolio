@@ -12,7 +12,7 @@ const Navbar = () => {
 
   return (
     <nav className="navbar">
-      <div className="logo">Harshal.dev</div>
+      <div className="logo">HarshalCodeX</div>
 
       <div className="menu-toggle" onClick={handleToggle}>
         <motion.div

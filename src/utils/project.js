@@ -15,7 +15,7 @@ export const projects = [
     },
     {
         title: "Slack Clone",
-        tech: ["React", "Redux", "Firebase", "Styled-components"],
+        tech: ["React", "Redux", "Firebase"],
         description: "Real-time chat app clone styled with MUI & Firebase backend.",
         github: "https://github.com/harshaltribhuwan/slack-clone",
         demo: "https://slack-clone-ht.web.app/",

@@ -91,14 +91,14 @@ const About = () => {
         </div>
       </Fade>
 
-      <Fade direction="up" delay={200} triggerOnce>
+      <Fade direction="up" delay={100} triggerOnce>
         <div className="section">
           <h2>Experience Snapshot</h2>
           <ul className="experience-list">
             <li>
-              Led frontend development for <strong>SmartSense</strong> – an
-              AI/ML-powered IoT platform that ingests millions of data points
-              daily.
+              Led frontend development for <strong>SmartSense</strong> at{" "}
+              <strong>Ecolibrium</strong> – an AI/ML-powered IoT platform that
+              ingests millions of data points daily.
             </li>
             <li>
               Built high-performance dashboards using{" "}
