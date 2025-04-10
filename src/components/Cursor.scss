@@ -1,5 +1,3 @@
-// src/components/Cursor.scss
-
 .custom-cursor {
     position: fixed;
     top: 0;
@@ -12,4 +10,19 @@
     z-index: 99999;
     mix-blend-mode: difference;
     transition: background 0.3s ease;
+
+    // Add some hover interaction effects
+    &.hovered {
+        background-color: var(--accent); // change background color on hover
+        border-color: #fff; // make the border white when hovered
+        width: 40px; // increase the size of the cursor when hovered
+        height: 40px; // increase the size of the cursor when hovered
+    }
+}
+
+// For mobile, you can hide the cursor
+@media (max-width: 768px) {
+    .custom-cursor {
+        display: none; // Disable custom cursor on mobile
+    }
 }
