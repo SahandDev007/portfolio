@@ -1,17 +1,17 @@
 export const projects = [
     {
-        title: "Gmail Clone",
-        tech: ["React", "Firebase", "Redux", "Material-UI"],
-        description: "Fully responsive Gmail UI clone with auth and mail handling.",
-        github: "https://github.com/harshaltribhuwan/gmail-clone",
-        demo: "https://clone-ht.web.app/",
-    },
-    {
         title: "Movie Hunt",
         tech: ["React", "Material UI", "API Integations"],
         description: "Movie and TV show explorer with trailer support via TMDb.",
         github: "https://github.com/harshaltribhuwan/movie-hunt-react",
         demo: "https://movie-hunt-react.netlify.app/",
+    },
+    {
+        title: "Gmail Clone",
+        tech: ["React", "Firebase", "Redux", "Material-UI"],
+        description: "Fully responsive Gmail UI clone with auth and mail handling.",
+        github: "https://github.com/harshaltribhuwan/gmail-clone",
+        demo: "https://clone-ht.web.app/",
     },
     {
         title: "Slack Clone",
