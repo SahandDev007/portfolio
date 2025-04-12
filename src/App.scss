@@ -11,3 +11,10 @@
   display: flex;
   flex-direction: column;
 }
+
+a,
+button {
+  outline: none;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-touch-callout: none;
+}
