@@ -80,7 +80,7 @@ const Home = () => {
             View Projects
           </Link>
           <a
-            href="https://drive.google.com/uc?export=download&id=1EttEPc-1JBCH-MYdVl4YwifZzDOwkrk5"
+            href={`${import.meta.env.BASE_URL}resume.pdf`}
             download
             className="btn-outline"
           >
