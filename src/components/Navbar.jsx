@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { NavLink } from "react-router-dom";
 import { motion, AnimatePresence } from "framer-motion";
 import { FiMenu, FiX } from "react-icons/fi";
@@ -6,6 +6,14 @@ import "./Navbar.scss";
 
 const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
+
+  useEffect(() => {
+    if (menuOpen) {
+      document.body.style.overflow = "hidden";
+    } else {
+      document.body.style.overflow = "auto";
+    }
+  }, [menuOpen]);
 
   const handleToggle = () => setMenuOpen(!menuOpen);
   const closeMenu = () => setMenuOpen(false);
@@ -50,10 +58,10 @@ const Navbar = () => {
         {menuOpen && (
           <motion.ul
             className="nav-links mobile"
-            initial={{ opacity: 0, scale: 0.9, y: -10 }}
-            animate={{ opacity: 1, scale: 1, y: 0 }}
-            exit={{ opacity: 0, scale: 0.9, y: -10 }}
-            transition={{ duration: 0.3, ease: "easeInOut" }}
+            initial={{ y: "-100%" }}
+            animate={{ y: 0 }}
+            exit={{ y: "-100%" }}
+            transition={{ duration: 0.4, ease: "easeInOut" }}
           >
             <li>
               <NavLink to="/" end onClick={closeMenu}>
