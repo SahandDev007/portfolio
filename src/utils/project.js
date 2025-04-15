@@ -1,11 +1,11 @@
 export const projects = [
-    {
-        title: "Movie Hunt",
-        tech: ["React", "Material UI", "API Integations"],
-        description: "Movie and TV show explorer with trailer support via TMDb.",
-        github: "https://github.com/harshaltribhuwan/movie-hunt-react",
-        demo: "https://movie-hunt-react.netlify.app/",
-    },
+    // {
+    //     title: "Movie Hunt",
+    //     tech: ["React", "Material UI", "API Integations"],
+    //     description: "Movie and TV show explorer with trailer support via TMDb.",
+    //     github: "https://github.com/harshaltribhuwan/movie-hunt-react",
+    //     demo: "https://movie-hunt-react.netlify.app/",
+    // },
     {
         title: "Gmail Clone",
         tech: ["React", "Firebase", "Redux", "Material-UI"],
