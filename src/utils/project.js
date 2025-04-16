@@ -14,18 +14,18 @@ export const projects = [
         demo: "https://slack-clone-ht.web.app/",
     },
     {
-        title: "Modern Analytics Dashboard",
-        tech: ["React", "Recharts", "Material UI"],
-        description: "Interactive dashboard with charts and responsive UI.",
-        github: "https://github.com/harshaltribhuwan/dashboard-ui",
-        demo: "https://dashboard-ui-task.netlify.app/",
-    },
-    {
         title: "AI Resume Critic",
         tech: ["React", "SCSS", "Framer Motion"],
         description: "Smart PDF resume reviewer with animated feedback.",
         github: "https://github.com/harshaltribhuwan/ai-resume-critic",
         demo: "https://harshaltribhuwan.github.io/ai-resume-critic/",
+    },
+    {
+        title: "Modern Analytics Dashboard",
+        tech: ["React", "Recharts", "Material UI"],
+        description: "Interactive dashboard with charts and responsive UI.",
+        github: "https://github.com/harshaltribhuwan/dashboard-ui",
+        demo: "https://dashboard-ui-task.netlify.app/",
     },
     {
         title: "Recipe Finder",
@@ -53,7 +53,7 @@ export const projects = [
         tech: ["React", "Redux", "Styled Components"],
         description: "Browse and get game info using RAWG API.",
         github: "https://github.com/harshaltribhuwan/glee-digital-e-commerce",
-        demo: "https://harshaltribhuwan.github.io/gamehub-react/",
+        demo: null,
     },
     {
         title: "ToDo List",
