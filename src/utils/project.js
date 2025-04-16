@@ -1,11 +1,4 @@
 export const projects = [
-    // {
-    //     title: "Movie Hunt",
-    //     tech: ["React", "Material UI", "API Integations"],
-    //     description: "Movie and TV show explorer with trailer support via TMDb.",
-    //     github: "https://github.com/harshaltribhuwan/movie-hunt-react",
-    //     demo: "https://movie-hunt-react.netlify.app/",
-    // },
     {
         title: "Gmail Clone",
         tech: ["React", "Firebase", "Redux", "Material-UI"],
@@ -73,7 +66,7 @@ export const projects = [
         title: "React OTP Component",
         tech: ["React", "Framer Motion", "SASS"],
         description: "Custom OTP input field with clean UI and animation.",
-        github: "https://github.com/harshaltribhuwan/recipe-finder",
+        github: "https://github.com/harshaltribhuwan/react-otp-component",
         demo: "https:/harshaltribhuwan.github.io/react-otp-component/",
     },
     {
@@ -82,6 +75,13 @@ export const projects = [
         description: "Chillhop music player with animated waves and playlist.",
         github: "https://github.com/harshaltribhuwan/music-player-react",
         demo: "https://harshaltribhuwan.github.io/music-player-react/",
+    },
+    {
+        title: "Movie Hunt",
+        tech: ["React", "Material UI", "API Integations"],
+        description: "Movie and TV show explorer with trailer support via TMDb.",
+        github: "https://github.com/harshaltribhuwan/movie-hunt-react",
+        demo: null,
     },
     {
         title: "LinkedIn Clone",
