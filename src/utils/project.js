@@ -52,7 +52,7 @@ export const projects = [
         title: "GameHub",
         tech: ["React", "Redux", "Styled Components"],
         description: "Browse and get game info using RAWG API.",
-        github: "https://github.com/harshaltribhuwan/glee-digital-e-commerce",
+        github: "https://github.com/harshaltribhuwan/gamehub-react",
         demo: null,
     },
     {
