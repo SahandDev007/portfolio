@@ -67,7 +67,7 @@ export const projects = [
         tech: ["React", "Framer Motion", "SASS"],
         description: "Custom OTP input field with clean UI and animation.",
         github: "https://github.com/harshaltribhuwan/react-otp-component",
-        demo: "https:/harshaltribhuwan.github.io/react-otp-component/",
+        demo: null,
     },
     {
         title: "Music Player",
