@@ -7,18 +7,18 @@ export const projects = [
         demo: "https://clone-ht.web.app/",
     },
     {
+        title: "Movie Hunt",
+        tech: ["React", "Material UI", "API Integations"],
+        description: "Movie and TV show explorer with trailer support via TMDb.",
+        github: "https://github.com/harshaltribhuwan/movie-hunt-react",
+        demo: 'https://movie-hunt-react.netlify.app/',
+    },
+    {
         title: "Slack Clone",
         tech: ["React", "Redux", "Firebase"],
         description: "Real-time chat app clone styled with MUI & Firebase backend.",
         github: "https://github.com/harshaltribhuwan/slack-clone",
         demo: "https://slack-clone-ht.web.app/",
-    },
-    {
-        title: "Cine Quest",
-        tech: ["React", "Material UI", "API Integations"],
-        description: "Movie and TV show explorer with trailer support via TMDb.",
-        github: "https://github.com/harshaltribhuwan/movie-hunt-react",
-        demo: 'https://movie-hunt-react.netlify.app/',
     },
     {
         title: "AI Resume Critic",
