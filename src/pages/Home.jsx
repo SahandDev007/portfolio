@@ -5,6 +5,8 @@ import { loadFull } from "tsparticles";
 import { Link } from "react-router-dom";
 import { TypeAnimation } from "react-type-animation";
 import "./Home.scss";
+import { personalData } from "./PersonalData";
+import { homeData } from "./HomeData";
 
 const Home = () => {
   const particlesInit = async (main) => {
@@ -42,27 +44,12 @@ const Home = () => {
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: 1.2 }}
         >
-          Harshal Tribhuvan
+          {`${personalData.firstName} ${personalData.lastName}`}
         </motion.h1>
 
         <TypeAnimation
           sequence={[
-            "Frontend Engineer 👨‍💻",
-            1500,
-            "React.js + Redux Specialist ⚛️",
-            1500,
-            "Built Dashboards That Handle Millions 📊",
-            1500,
-            "UI/UX Enthusiast ✨ Pixel-Perfect Delivery",
-            1500,
-            "Data Visualization Wizard 🧙‍♂️",
-            1500,
-            "Performance Optimizer ⚡ 60% Faster Dashboards",
-            1500,
-            "SCSS + Styled-Components Master 🎨",
-            1500,
-            "Modern Web Interfaces. Built Right. 🔥",
-            1500,
+            ...homeData.title
           ]}
           wrapper="h2"
           speed={50}

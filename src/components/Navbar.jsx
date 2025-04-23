@@ -20,7 +20,7 @@ const Navbar = () => {
 
   return (
     <nav className="navbar">
-      <div className="logo">HarshalCodeX</div>
+      <div className="logo">SahandDev</div>
 
       <div className="menu-toggle" onClick={handleToggle}>
         <motion.div

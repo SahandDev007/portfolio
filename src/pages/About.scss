@@ -27,9 +27,21 @@
       margin-bottom: 1rem;
     }
 
+    h3 {
+      // color: var(--primary);
+      font-size: 1.2rem;
+      margin-bottom: 1rem;
+    }
+
     p, ul {
       font-size: 1.05rem;
       line-height: 1.6;
+    }
+    .tech-stack {
+      justify-content: center;
+      align-items: center;
+      display: grid;
+      grid-template-columns: 150px auto;
     }
   }
 
@@ -46,6 +58,7 @@
     justify-content: center;
     gap: 1.5rem;
     font-size: 2rem;
+    padding: 10px;
 
     svg {
       color: var(--primary);
